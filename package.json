@@ -1,0 +1,15 @@
+{
+  "name": "projetsToStudy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:gustavo-em/react-learning.git",
+  "author": "gustavo-em <gustavo.emanuel01@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
