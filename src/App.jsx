@@ -1,4 +1,13 @@
+import React from 'react'
 
 export function App(){
-    return <h1>Hello World</h1>
+    const [count, setCount] = React.useState(0)
+    return ( 
+        <>  
+            <p>{count}</p>
+            <button onClick={()=>setCount(count+1)}>+1</button> 
+            {/* <span>{count}</span> 
+            <button onClick={setCount(count + 1)}>+1</button> */}
+        </>
+    )
 }
